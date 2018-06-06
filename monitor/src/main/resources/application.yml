@@ -1,0 +1,4 @@
+server:
+  port: 8989
+
+#断路器监视就是 localhost:8989/hystrix.stream

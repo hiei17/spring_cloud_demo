@@ -1,0 +1,15 @@
+server:
+  port: 8761 #端口号
+
+eureka:
+  instance:
+    hostname: localhost #名字
+  client:
+    register-with-eureka: false #本服务不要Eureka注册(自己就是Eureka服务提供者
+    fetch-registry: false
+
+    #因此要注册的服务 写这个
+    #defaultZone: http://${eureka.host:localhost}:${eureka.port:8761}/eureka/
+
+  #http://localhost:8761查看
+    
